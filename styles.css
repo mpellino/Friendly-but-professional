@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "Cutive Mono";
-    src: url("./Cutive_Mono/CutiveMono-Regular.ttf") format('truetype');
-}
+
 
 body {
     font-family: 'Cutive Mono', monospace;
