@@ -19,21 +19,6 @@ dropdownButtons.forEach(dropdownButton => {
   });
 })
 
-dropdownButtons.forEach(dropdownButton => {
-  let currentDropdownMenu = dropdownButton.parentNode.querySelector(".dropdown-menu");
-  dropdownButton.addEventListener("click", function(event) {
-    if (currentDropdownMenu.style.opacity = "1") {
-      currentDropdownMenu.style.opacity = "0";
-      currentDropdownMenu.style.pointerEvents = "none";
-    } else if (currentDropdownMenu.style.opacity = "0") {
-      currentDropdownMenu.style.opacity = "1";
-      currentDropdownMenu.style.pointerEvents = "auto";
-    }
-
-  });
-})
-
-
 dropdownContents.forEach(dropdownContent => {
   dropdownContent.addEventListener('mouseenter', function(event) {
     let currentButton = event.relatedTarget
@@ -46,5 +31,5 @@ dropdownContents.forEach(dropdownContent => {
     dropdownContent.style.opacity = '0'
     dropdownContent.style.pointerEvents = "none";
   })
-})
+});
 
