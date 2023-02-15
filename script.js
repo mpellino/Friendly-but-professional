@@ -25,7 +25,10 @@ dropdownButtons.forEach(dropdownButton => {
     if (currentDropdownMenu.style.opacity = "1") {
       currentDropdownMenu.style.opacity = "0";
       currentDropdownMenu.style.pointerEvents = "none";
-    } else return
+    } else if (currentDropdownMenu.style.opacity = "0") {
+      currentDropdownMenu.style.opacity = "1";
+      currentDropdownMenu.style.pointerEvents = "auto";
+    }
 
   });
 })
