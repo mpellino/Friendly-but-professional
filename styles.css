@@ -6,6 +6,7 @@ body {
 
 header,
 nav,
+#about-container,
 #main-wrapper  {
     text-align: center;
 }
@@ -67,6 +68,10 @@ header {
     height: auto;
 }
 
+#about-container {
+    height: 600px;
+}
+
 footer {
     background-color: dimgray;
 }
@@ -114,7 +119,10 @@ footer {
     background-color: white;
 }
 
+.link-button {
+    padding-bottom: 30px;
 
+}
 
 .link {
     width: 200px;
@@ -123,6 +131,8 @@ footer {
     font-size: x-large;
     font-family: 'Cutive Mono', monospace;
     padding-bottom: 30px;
+    text-decoration: none;
+    color: black;
 }
 
 .dropdown-menu {

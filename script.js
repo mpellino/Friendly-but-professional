@@ -19,6 +19,18 @@ dropdownButtons.forEach(dropdownButton => {
   });
 })
 
+dropdownButtons.forEach(dropdownButton => {
+  let currentDropdownMenu = dropdownButton.parentNode.querySelector(".dropdown-menu");
+  dropdownButton.addEventListener("click", function(event) {
+    if (currentDropdownMenu.style.opacity = "1") {
+      currentDropdownMenu.style.opacity = "0";
+      currentDropdownMenu.style.pointerEvents = "none";
+    } else return
+
+  });
+})
+
+
 dropdownContents.forEach(dropdownContent => {
   dropdownContent.addEventListener('mouseenter', function(event) {
     let currentButton = event.relatedTarget
