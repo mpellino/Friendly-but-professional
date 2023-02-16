@@ -105,11 +105,6 @@ footer {
 
 }
 
-.dropdown-menu.visible {
-    opacity: 1;
-    pointer-events: auto;
-    background-color: red;
-}
 
 .dropdown > .link:focus + .dropdown-menu {
     opacity: 1;
