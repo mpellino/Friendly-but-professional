@@ -30,8 +30,8 @@ header {
 #navigation-links-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 10px 0 80px 0;
+    justify-content: center;
+    margin: 10px 0 10px 0;
 }
 
 @media (min-width: 600px) {
@@ -48,6 +48,7 @@ header {
         width: 200px;
         height: auto
     }
+
 
 }
 
@@ -79,9 +80,13 @@ footer {
 /* dropdown section */
 
 .dropdown {
-    flex-basis: 100%;
+    flex-basis: 300px;
     display: inline-block;
     position: relative; /* so we can later position the dropdown-menu */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
 }
 
 .dropdown-menu {
@@ -98,6 +103,12 @@ footer {
     pointer-events: none;
     z-index: 2;
 
+}
+
+.dropdown-menu.visible {
+    opacity: 1;
+    pointer-events: auto;
+    background-color: red;
 }
 
 .dropdown > .link:focus + .dropdown-menu {
@@ -125,9 +136,9 @@ footer {
 }
 
 .link {
-    width: 200px;
-    background-color: white;
+    width: 150px;
     border: none;
+    background-color: white;
     font-size: x-large;
     font-family: 'Cutive Mono', monospace;
     padding-bottom: 30px;
