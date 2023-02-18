@@ -32,6 +32,16 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     margin: 10px 0 10px 0;
+    text-align: center;
+
+}
+
+.link {
+    color: #217be7;
+}
+.dropdown a {
+    text-decoration: none;
+    color: #217be7;
 }
 
 @media (min-width: 600px) {
@@ -81,11 +91,13 @@ footer {
 
 .dropdown {
     flex-basis: 300px;
-    display: inline-block;
+    display: flex;
     position: relative; /* so we can later position the dropdown-menu */
     margin: 0;
     padding: 0;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -138,7 +150,7 @@ footer {
     font-family: 'Cutive Mono', monospace;
     padding-bottom: 30px;
     text-decoration: none;
-    color: black;
+    color: #217be7;
 }
 
 .dropdown-menu {
@@ -153,10 +165,16 @@ footer {
     padding-top: 15px;
     padding-bottom: 15px;
     text-decoration: none;
-    color: black;
 }
 
 .dropdown > .list-item:focus,
 .list-item:hover {
-    background-color: ghostwhite;
+    background-color: #ecf4fd;
+}
+
+
+/* About section */
+
+#about-container * {
+    color: #217be7;
 }
