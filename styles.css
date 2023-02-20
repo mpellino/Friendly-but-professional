@@ -51,6 +51,10 @@ header {
     .dropdown {
         flex-basis: 30%;
     }
+    .dropdown-menu {
+        position: absolute;
+
+    }
     .link {
         padding-bottom: 0;
     }
@@ -103,10 +107,8 @@ footer {
 
 .dropdown-menu {
     position: absolute;
-    left: 0;
     text-align: left;
     top:calc(100% + .50rem);
-    left: -60px;
     padding: .75rem;
     border-radius: .25rem;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
