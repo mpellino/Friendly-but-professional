@@ -62,7 +62,11 @@ header {
         width: 200px;
         height: auto
     }
-
+    .portfolio-img{
+        width: 600px;
+        height: 500px;
+        border: #ecf4fd 5px solid;
+    }
 
 }
 
@@ -80,8 +84,9 @@ header {
 }
 
 .portfolio-img{
-    width: 600px;
-    height: 500px;
+
+    width: 100%;
+    height: auto;
     border: #ecf4fd 5px solid;
 }
 
