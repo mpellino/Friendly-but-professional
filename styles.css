@@ -66,6 +66,7 @@ header {
 
 }
 
+
 #porfolio-images-container {
     display: flex;
     flex-direction: row;
@@ -79,16 +80,21 @@ header {
 }
 
 .portfolio-img{
-    width: 100%;
-    height: auto;
+    width: 600px;
+    height: 500px;
+    border: #ecf4fd 5px solid;
 }
 
 #about-container {
     height: 600px;
 }
 
+#contacts {
+    color: #217be7;
+}
 footer {
-    background-color: dimgray;
+    background-color: #ecf4fd;
+    color: #217be7;
 }
 
 /* dropdown section */
