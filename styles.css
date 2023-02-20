@@ -110,7 +110,7 @@ footer {
     padding: .75rem;
     border-radius: .25rem;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
-    opacity: 1;
+    opacity: 0;
     transform: translateY(-10px);
     transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
     pointer-events: none;
